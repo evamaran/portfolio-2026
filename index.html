@@ -6,40 +6,102 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Eva's Portfolio</title>
 	<link rel="icon" type="image/png" href="favicon.png" />
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header>
-		<h1>Eva</h1>
-		<nav>
-			<a href="#about">About Me</a>
-			<a href="#projects">Projects</a>
-			<a href="#documents">Documents</a>
-		</nav>
-	</header>
+	<div class="container">
+		<header>
+			<h1>Eva</h1>
+			<nav>
+				<a href="#about">About Me</a>
+				<a href="#projects">Projects</a>
+				<a href="#documents">Documents</a>
+			</nav>
+		</header>
 
-	<main>
-		<section id="about">
-			<h2>About</h2>
-			<p>Hi, I'm Eva and I'm a frontend student who combines structure, simplicity and visual appeal to create intuitive user experiences. I believe good design should feel effortless, and I enjoy turning ideas into clean, functional and attractive interfaces. My goal is always the same: make things easy to use, easy to understand and enjoyable to interact with.</p>
-		</section>
+		<main>
+			<section id="about">
+				<h2>About</h2>
+				<p>Hi, I'm Eva and I'm a frontend student who combines structure, simplicity and visual appeal to create
+					intuitive user experiences. I believe good design should feel effortless, and I enjoy turning ideas
+					into
+					clean, functional and attractive interfaces. My goal is always the same: make things easy to use,
+					easy
+					to understand and enjoyable to interact with.</p>
+			</section>
 
-		<section id="projects">
-			<h2>Projects</h2>
+			<section id="projects">
+				<h2>Projects</h2>
 
-		</section>
+				<div class="project-card">
+					<picture>
+						<source media="(min-width: 769px)" srcset="images/rd-desktop.jpg">
+						<img src="images/rd-mob.jpg" alt="RainyDays image">
+					</picture>
+					<div class="project-info">
+						<h3>RainyDays</h3>
+						<p>Static e-commerce layout built with semantic HTML and modern CSS. Responsive design focused
+							on
+							clean structure, branding and usability.</p>
+						<a href="#" class="project-button">GitHub</a>
+						<a href="#" class="project-button">Demonstration</a>
+					</div>
+				</div>
 
-		<section id="documents">
-			<h2>Documents</h2>
+				<div class="project-card">
+					<picture>
+						<source media="(min-width: 769px)" srcset="images/sp1-desktop.jpg">
+						<img src="images/sp1-mob.jpg" alt="Semester Project 1 image">
+					</picture>
+					<div class="project-info">
+						<h3>Semester Project 1</h3>
+						<p>Interactive museum website with exhibitions, events and learning content. Designed with
+							structured layouts and accessible design to inspire exploration.</p>
+						<a href="#" class="project-button">GitHub</a>
+						<a href="#" class="project-button">Demonstration</a>
+					</div>
+				</div>
 
-		</section>
+				<div class="project-card">
+					<picture>
+						<source media="(min-width: 769px)" srcset="images/js1-desktop.jpg">
+						<img src="images/js1-mob.jpg" alt="JavaScript Project 1 image">
+					</picture>
+					<div class="project-info">
+						<h3>JavaScript 1</h3>
+						<p>Interactive webpage demonstrating core JavaScript logic and client-side functionality.
+							Focused on
+							simple UI updates, clean structure and practical coding principles.</p>
+						<a href="#" class="project-button">GitHub</a>
+						<a href="#" class="project-button">Demonstration</a>
+					</div>
+				</div>
 
-	</main>
+			</section>
 
-	<footer>
-		<p>&copy; 2023 Eva. All rights reserved.</p>
-	</footer>
+			<section id="documents">
+				<h2>CV & Cover Letter</h2>
+
+				<div class="document-section">
+					<h3>CV</h3>
+					<a href="cv.pdf" target="_blank" rel="noopener noreferrer" class="document-link">View CV (PDF)</a>
+				</div>
+
+				<div class="document-section">
+					<h3>Cover Letter</h3>
+					<a href="cover-letter.pdf" target="_blank" rel="noopener noreferrer" class="document-link">View
+						Cover Letter (PDF)</a>
+				</div>
+			</section>
+
+		</main>
+
+		<footer>
+			<p>&copy; 2026 Eva. All rights reserved.</p>
+		</footer>
+
+	</div>
 
 </body>
 
