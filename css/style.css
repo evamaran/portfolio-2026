@@ -108,6 +108,10 @@ nav a:hover {
 
 /* --- Buttons --- */
 
+.project-info {
+	position: relative;
+}
+
 .project-button {
 	display: inline-block;
 	padding: 0.6rem 1.2rem;
@@ -121,6 +125,7 @@ nav a:hover {
 	transition: background-color 0.2s ease, border-color 0.2s ease;
 	margin-right: 1rem;
 	margin-top: 0.8rem;
+	pointer-events: auto;
 }
 
 /* --- Documents --- */
