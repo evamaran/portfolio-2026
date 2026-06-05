@@ -126,17 +126,12 @@ nav a:hover {
 /* --- Documents --- */
 
 #documents {
-	margin-top: 2rem;
-	padding: 1.5rem 0;
-}
-
-#documents h2 {
-	font-size: 1.4rem;
-	font-weight: 700;
-	margin-bottom: 1.2rem;
+	margin-top: 2.5rem;
+	padding: 2rem 0;
 }
 
 .document-section {
+	display: block;
 	margin-bottom: 2rem;
 }
 
@@ -246,9 +241,7 @@ footer {
 	}
 
 	.document-section {
-		display: flex;
-		align-items: center;
-		gap: 2rem;
+		display: block;
 		margin-bottom: 2.5rem;
 	}
 
