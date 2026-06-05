@@ -57,7 +57,7 @@ header {
 	justify-content: space-between;
 	align-items: baseline;
 	padding: 1rem 0;
-	bakground-color: #F3F7F4;
+	background-color: #F3F7F4;
 }
 
 header h1 {
@@ -106,24 +106,6 @@ nav a:hover {
 	margin-bottom: 1rem;
 }
 
-.project-links {
-	display: flex;
-	gap: 1rem;
-}
-
-.project-links a {
-	padding: 0.4rem 0.8rem;
-	background-color: #9BCF53;
-	color: #1A1F24;
-	text-decoration: none;
-	font-weight: 600;
-	border-radius: 4px;
-}
-
-.project-links a:hover {
-	opacity: 0.8;
-}
-
 /* --- Buttons --- */
 
 .project-button {
@@ -140,11 +122,6 @@ nav a:hover {
 	margin-right: 1rem;
 	margin-top: 0.8rem;
 }
-
-.project-button:last-child {
-	margin-right: 0;
-}
-
 
 /* --- Documents --- */
 
@@ -180,6 +157,21 @@ nav a:hover {
 	opacity: 0.8;
 }
 
+.text-link {
+	font-family: "Inter", Arial, sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	/* 16px mobile */
+	color: #2E3A45;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	transition: color 0.2s ease;
+}
+
+.text-link:hover {
+	color: #1A1F24;
+}
+
 /* --- Footer --- */
 
 footer {
@@ -207,7 +199,7 @@ footer {
 	}
 
 	.container>* {
-		grid-column: 4 / 10;
+		grid-column: 3 / 11;
 	}
 
 	h1 {
